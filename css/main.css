@@ -292,8 +292,8 @@ section {
 
 .hire-me  a{
   font-weight: bold;
-  margin-left: 45%;
-  margin-right: 45%;
+  place-content: center;
+  display: block;
 }
 
 .hire {
@@ -308,7 +308,7 @@ section {
   .featured {
     display: -ms-grid;
     display: grid;
-    grid-template-comlumns: 40% auto;
+    
   }
   .left {
     display: -ms-grid;
@@ -482,6 +482,8 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+
+ 
 }
 
 @media only screen and (min-width: 1550px) {
@@ -496,6 +498,10 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+
+  .right-transition2 {
+    width: 85%
   }
 }
 
