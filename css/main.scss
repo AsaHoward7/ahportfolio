@@ -87,10 +87,12 @@ section {
     text-align: center;
     letter-spacing: .2em;
     font-size: 2em
+
 }
 
 .featured {
     position: relative;
+
 
 }
 .featured::before {
@@ -133,14 +135,14 @@ section {
     width: 120px;
     margin: .3em;
    
+
+   
 }
 
 
 
-.right-transition2 {
-    border-radius: 2em;
-    display: grid;
-}
+
+
 
 .skills {
     background: #363B48;
@@ -251,22 +253,20 @@ section {
     }
     .featured {
         display: grid;
-        grid-template-comlumns: 40% auto;
+        grid-template-columns: 40% auto;
+        margin-bottom: 2em;
     }
 
     .left {
         display: grid;
         place-content: center;
-        margin-right: 55%;
+  
+       
     }
 
     .right {
-        margin-left: 50%;
-        margin-top: -17em;
-        float: right;
-        place-content: right;
-        width: 60%;
-        display: flex;
+
+    }
 
     }
     .skills {
